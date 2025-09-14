@@ -1,2 +1,59 @@
-Hello World
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJCg6GlaCcu-BcNLDZ6P5xv388E7zqAxzmYg&s" alt="Italian Trulli">
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Northeast DEV Village</title>
+
+    <style>
+        :root {
+            --max-width: 1200px;
+            --radius: 14px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        html,
+        body,
+        #app {
+            height: 100%
+        }
+
+        body {
+            font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+            background: linear-gradient(180deg, #071027 0%, #07172f 100%);
+            color: #e6eef6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px;
+        }
+
+        .frame {
+            width: min(98vw, var(--max-width));
+            max-height: 90vh;
+            border-radius: calc(var(--radius) + 6px);
+            padding: 20px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main id="app">
+        <div class="frame">
+            Hello World
+        </div>
+    </main>
+</body>
+
+</html>
